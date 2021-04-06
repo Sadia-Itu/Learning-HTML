@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>HTML Learning</title>
+    <style>
+        body {
+          background-image: url('images/backgroundimage.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style> 
 </head>
-<body style="background-color:darkslategrey;">
-    <h1 style="color: gray;font-family: 'Courier New', Courier, monospace;text-align: center;">Let's Learn HTML Together</h1>
-    <p style="color: cadetblue;font-size: 30px;">HTML stands for <mark>Hyper Text Markup Language</mark>.It describes the structure of a web page.HTML tells the browser how to display the content</p>
+<body style="background-color:darkcyan;">
+    <h1 style="color: paleturquoise;font-family: 'Courier New', Courier, monospace;text-align: center;">Let's Learn HTML Together</h1>
+    <p style="color: lightseagreen;font-size: 30px;">HTML stands for <mark>Hyper Text Markup Language</mark>.It describes the structure of a web page.HTML tells the browser how to display the content</p>
     <br>
     <a href="https://www.w3schools.com/html/html_basic.asp">Click here for learning html in details</a>
     <hr>
@@ -16,7 +25,7 @@
     <br>
     <br>
     <img src="images/Tag.jpg" alt="tag" height="350px" width="350px">
-    <p style="font-size: 30px;color: cadetblue;">The <strong>br</strong> tag defines a line break, and is an empty element without a closing tag.</p>
+    <p style="font-size: 30px;color: lightseagreen;">The <strong>br</strong> tag defines a line break, and is an empty element without a closing tag.</p>
     <hr>
     <pre>
         
@@ -29,6 +38,12 @@ This is <sub>subscript</sub>subscript and <sup>superscript</sup>
 
         
     </pre>
+    <img src="images/imagemap.jpg" alt="Workplace" usemap="#imagemap" width="400" height="379">
+
+<map name="imagemap">
+  <area shape="poly" coords="30,100, 140,50, 290,220, 180,280" alt="mobile" href="mobile.htm">
+  <area shape="poly" coords="190,75, 200,60, 495,60, 495,165, 275,165" alt="letter" href="letter.htm">
+</map>
     
 </body>
 </html>
